@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prices - TechWeb Services</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>TechWeb Services</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="servicii.html">Services</a></li>
+            <li><a href="preturi.html" class="active">Prices</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section>
+            <h2>Our Prices</h2>
+            <p>Below you can see our pricing for different services.</p>
+        </section>
+        
+        <section>
+            <h3>Price Table</h3>
+            <div id="priceTable"></div>
+        </section>
+        
+        <section>
+            <h3>Price Calculator</h3>
+            <p>Enter the price and quantity to calculate the total:</p>
+            <input type="number" id="priceBox" placeholder="Price">
+            <input type="number" id="qtyBox" placeholder="Quantity">
+            <button onclick="doCalculation()">Calculate Total</button>
+            <p id="resultBox"></p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>TechWeb Services</p>
+        <p>123 Main Street, New York, NY 10001</p>
+        <p>Email: <a href="mailto:info@techweb.com">info@techweb.com</a></p>
+        <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+    </footer>
+</body>
+</html>
+
